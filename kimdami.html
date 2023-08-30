@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> 김다미 </title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            text-decoration: none;
+        }
+        .head{
+            background-color: rgb(147, 210, 235);
+            height: 200px;
+            text-align: center;
+        }
+        .head_text{
+            padding-top: 60px;
+            color: white;
+            text-shadow: 2px 2px 2px rgb(70, 70, 70);
+
+        }
+        .sub_headline{
+            line-height: 2;
+            background-color: rgba(147, 210, 235, 0.418);
+            color: rgb(56, 56, 56);
+            display: inline-block;
+            padding: 20px 20px 20px 20px;
+            margin-top: 10px;
+            clear: both;
+        }
+        .main_4_contents{
+            text-align: center;
+            line-height: 2.5;
+            margin-bottom: 30px;
+
+        }
+        .main_1_contents_ul{
+            text-align: center;
+            line-height: 2.5;
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            margin: 150px auto;
+            height: 450px;
+            background-color: white;
+            overflow: auto;
+            padding: 10px;
+        }
+        .main_1_contents_li{
+            border : 0;
+            width: 20%;
+            height: 400px;
+            padding: 5px;
+            margin-top: 30px;
+
+        }
+        .main_1_contents_list_img{
+            width: 70px;
+            height: 70px;
+        }
+        .main_1_contents_list_text{
+            font-size: 12px;
+        }
+        .main_2_contents{
+            text-align: center;
+            width: 100%;
+            height: 2200px;
+            overflow: hidden;
+        }
+        .main_2_contents_ul_1{
+            margin: 10px auto;
+            
+        }
+        .main_2_contents_ul_2{
+            padding: 0;
+            text-align: center;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+        }
+        .main_2_contents_ul_3{
+            padding: 0;
+            text-align: center;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+        }
+        #a{
+            margin: 20px auto;
+        }
+        .selfie{
+            border: 0px solid black;
+        }
+        .selfie:hover{
+            border: 10px solid rgb(0, 102, 255);
+        }
+        .footer{
+            background-color: rgba(197, 197, 197, 0.479);
+            text-align: center;
+            margin: 0px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            color: rgba(255, 255, 255, 0.185);
+
+        }
+        .nav_bar{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            height: 2%;
+            background-color:rgb(147, 210, 235);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px;
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .nav_bar:active{
+            text-shadow: 1px 1px 2px black;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="head">
+            <div class="head_text">
+                <h1>김다미</h1>
+                <p>💕저를 소개합니다💕</p>
+            </div>
+        </div>
+        <nav class="nav_bar">
+            <a href="#nav1" class="nav_1" style="color: rgb(75, 75, 75);">간단 자기소개</a>
+            <a href="#nav2" class="nav_1" style="color: rgb(75, 75, 75);">한마디 정의</a>
+            <a href="#nav3" class="nav_1" style="color: rgb(75, 75, 75);">디자인 작업물</a>
+        </nav>
+    </header>
+    <main>
+        <div class="main_4" id="nav1">
+            <div class="sub_headline">
+                <h2>❗김다미, 간단 자기소개</h2>
+                <p>간단하게 자기소개로 시작해보겠습니다!😊</p>
+            </div>
+            <div class="main_4_contents">
+                <img class="selfie" src="img/me.jpg" alt="me" width="400px" style="margin: 20px; border-radius: 50%;">
+                <p>이름 : 김다미</p>
+                <p>생년월일 : 2000년 2월 24일</p>
+            </div>
+        </div>
+        <div class="main_1" id="nav2">
+            <div class="sub_headline">
+                <h2>❗김다미, 한 마디로 말하면?</h2>
+                <p>저를 가장 대표할 수 있는 것들을 한 마디로 표현해 보겠습니다😊</p>
+            </div>
+            <ul class="main_1_contents_ul">
+                <il class="main_1_contents_li">                
+                        <img src="img/healthcare.png"; alt="심리학과 이미지"; class="main_1_contents_list_img";>
+                        <h2>심리학과</h2>
+                        <p class="main_1_contents_list_text">저는 심리학과를 전공했습니다.<br>
+                            심리학과라는 과 특성상 팀을 이뤄 서로의 상담을 해주는 등<br>
+                            학우들의 말을 귀담아들을 수 있는 기회가 많았습니다.<br>
+                            이를 통해 경청이라는 자세를 몸에 새길 수 있었고,<br>
+                            이는 이후 팀 과제에서도 빛을 발하지 않을까 생각합니다😊
+                        </p>
+                </il>
+                <il class="main_1_contents_li">
+                        <img src="img/ENTP.png"; alt="ENTP"; class="main_1_contents_list_img";>
+                        <h2>ENTP</h2> 
+                        <p class="main_1_contents_list_text">
+                            저의 MBTI 유형입니다.<br>
+                            ENTP는 '지식이 풍부하고 호기심이 넘치며 활기찬 유머 감각으로<br>
+                            다른 사람을 즐겁게 할 수 있는 성격입니다.'라고 하는데요.<br>
+                            이 말과 같이 저는 항상 즐거운 마음으로 지식을 대하고 있고,<br>
+                            이런 지식에 대한 호기심이 저를 더 깊은 지식의 장으로 데려다준다고 믿고 있습니다!<br>
+                        </p>
+                </il>
+                <il class="main_1_contents_li">
+                        <img src="img/dudtkd.jpg"; alt="영상디자인"; class="main_1_contents_list_img";>
+                        <h2>영상디자인</h2>
+                        <p class="main_1_contents_list_text">
+                            학교를 졸업한 이후, 저는 영상 디자인을 공부했습니다.<br>
+                            그 과정 속에서 웹 디자인과 앱 디자인을 경험했고,<Br>
+                            이를 디자인하기 위한 포토샵, 일러스트레이터, 에프터이펙트 등<br>
+                            다양한 프로그램들을 공부할 수 있었습니다.<br>
+                            이후 저는 단순한 디자인을 넘어<br>
+                            내가 직접 디자인한 페이지를 구현해보고 싶다는 욕심이 생겼고,<br>
+                            이에 이번 프론트엔드 과정에 참여하게 되었습니다.<br>
+                        </p>  
+                </il>
+                <il class="main_1_contents_li">
+                        <img src="img/run.png"; alt="도전"; class="main_1_contents_list_img";>
+                        <h2>도전정신</h2>
+                        <p class="main_1_contents_list_text">
+                            저는 끊임없이 도전하고 노력하는 사람이라고 생각합니다.<br>
+                            심리학과를 전공한 이후, 영상 디자인에 도전했고,<br>
+                            이후 꿈을 넓혀 프론트엔드 과정에 참여하게 되었습니다.<Br>
+                            항상 모든 과정에서 최선을 다하고 끊임없이 노력했으며,<br>
+                            그 노력은 현재까지도 계속되고 있습니다.<br>
+                            이번 과정도 시작은 미약하나 끝은 창대하리라는 믿음을 가지고<br>
+                            열심히 노력하고 결과물을 만들어내는 사람이 되보려고 합니다.<br>
+                            그 과정을 함께 응원해 주시면 너무 감사할 것 같습니다!!<br>     
+                        </p>   
+                </il>
+            </ul>
+        </div>
+        <div class="main_2" id="nav3" style="clear: both;">
+            <div class="sub_headline">
+                <h2>❗김다미, 디자인</h2>
+                <p>디자인했던 작업들 중 몇가지를 소개해 보겠습니다😊</p>
+            </div>
+            <div class="main_2_contents">
+                <h2 id="a">첫 웹페이지</h2>
+                <ul class="main_2_contents_ul_1">
+                    <li>
+                        <img src="img/web_1.png" alt="첫 웹디자인"; width="700px;">
+                    </li>
+                </ul>   
+                <h2 id="a">넷플릭스 리디자인</h2>
+                <ul class="main_2_contents_ul_2">
+                    <li class="main_2_contents_li_2">
+                        <img src="img/Ne1.jpg" alt="리디자인"; style="width: 300px;">
+                    </li>
+                    <li class="main_2_contents_li_2">
+                        <img src="img/Ne2.jpg" alt="리디자인"; style="width: 300px;">
+                    </li>
+                    <li class="main_2_contents_li_2">
+                        <img src="img/Ne3.jpg" alt="리디자인"; style="width: 300px;">
+                    </li>
+                </ul>
+                <h2 id="a">환경 관련 창작 app 디자인</h2>
+                <ul class="main_2_contents_ul_3">
+                    <li class="main_2_contents_li_3">
+                        <img src="img/H1.jpg" alt="창작어플"; style="width: 300px;">
+                    </li>
+                    <li class="main_2_contents_li_3">
+                        <img src="img/H2.jpg" alt="창작어플"; style="width: 300px;">
+                    </li>
+                    <li class="main_2_contents_li_3">
+                        <img src="img/H3.jpg" alt="창작어플"; style="width: 300px;">
+                    </li>
+                    <li class="main_2_contents_li_3">
+                        <img src="img/H4.jpg" alt="창작어플"; style="width: 300px;">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="footer" style="clear: both;">
+        <p>지금까지 제 자기소개를 들어주셔서 감사합니다!</p>
+    </footer>
+</body>
+</html>
